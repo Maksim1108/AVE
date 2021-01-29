@@ -1,0 +1,30 @@
+.header-top {
+    background-color: $brown;
+    font-size: vw(13);
+    line-height: vw(20);
+    font-weight: 400;
+    &__content {
+        @include flex-center(space-between);
+    }
+    &__left {
+        color:$gray;
+    }
+    &__right {
+        display: flex;
+        align-items: center;
+    }
+    &__register {
+        color: $lightGray;
+        margin-right: vw(36);
+        &:nth-child(2) {
+            margin-right: vw(60);
+        }
+    }
+    &__busket {
+        width: vw(147);
+        height: vw(46);
+        background-color: $blue;
+        color: $white;
+        @include flex-center;
+    }
+}

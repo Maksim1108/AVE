@@ -1,0 +1,15 @@
+.hero {
+    background-color: #f8f8f8;
+    &__title {
+        position: absolute;
+        font-size: vw(450);
+        letter-spacing: vw(136);
+        color: #575153;
+        font-weight: 700;
+        text-transform: uppercase;
+        user-select: none;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

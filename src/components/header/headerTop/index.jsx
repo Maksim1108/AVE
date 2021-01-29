@@ -1,20 +1,20 @@
 import React from 'react'
-import './style.scss'
 
-const headerTop = () => {
+const HeaderTop = () => {
     return (
-        <div className='header'>
+        <div className='header-top'>
             <div className="container-1">
-                <div className="header__content row">
-                    <span className="header__value"></span>
-                    <span></span>
-                    <span>Register</span>
-                    <span>Sign In</span>
-                    <span>Basket</span>
+                <div className="header-top__content row">
+                    <span className="header-top__left">Currency : GBP</span>
+                    <div className="header-top__right">
+                        <a href='#' className='header-top__register'>Register</a>
+                        <a href='#' className='header-top__register'>Sign In</a>
+                        <a href='#' className="header-top__busket">empty</a>
+                    </div>
                 </div>
             </div>
         </div>
     )
 }
 
-export default headerTop
+export default HeaderTop
