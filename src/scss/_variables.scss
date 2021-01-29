@@ -1,0 +1,20 @@
+$brown: #333333;
+$blue:#00c8c8;;
+$white:#fff;
+$black:#989898;
+$lightGray:#999999;
+$gray:#727272;
+$logo:#222222;
+
+
+
+
+@mixin noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
