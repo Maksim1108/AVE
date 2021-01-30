@@ -1,15 +1,36 @@
 .hero {
-    background-color: #f8f8f8;
+    background: #f8f8f8;
+    background-image: url(../../assets/hero/man.png);
+    background-repeat: no-repeat;
+    background-size: vw(1000);
+    background-position-x:vw(200) ;
+    padding: vw(140) 0 vw(127) 0;
     &__title {
-        position: absolute;
         font-size: vw(450);
         letter-spacing: vw(136);
         color: #575153;
         font-weight: 700;
         text-transform: uppercase;
         user-select: none;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    &__button {
+        width: vw(342);
+        height: vw(59);
+        background-color: rgba(115,115,115,0);
+        border: vw(2) solid #737373;
+        font-size: vw(16);
+        letter-spacing: vw(3);
+        color: #454647;
+        font-weight: 400;
+        text-transform: uppercase;
+        @include flex-center;
+        transition: 0.6s;
+        transform: translateX(vw(1300));
+        &:hover {
+            background-color:$blue;
+            border: vw(2) solid $blue;
+            color:$white;
+        }
     }
 }

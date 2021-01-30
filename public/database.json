@@ -1,0 +1,20 @@
+{
+    "products": [
+        {
+            "id": 0,
+            "imageUrl": "assets/products/product-1.png",
+            "name": "Пепперони Фреш с перцем",
+            "price": 89.99,
+            "category": 0,
+            "description": "Classic casual t-shirt for women on the move.100% cotton."
+        },
+        {
+            "id": 1,
+            "imageUrl": "assets/products/product-1.png",
+            "name": "Сырная",
+            "price": 47.50,
+            "category": 1,
+            "description": "Classic casual t-shirt for women on the move.100% cotton."
+        }
+    ]
+}

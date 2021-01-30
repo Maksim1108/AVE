@@ -1,0 +1,1 @@
+export const filterNames = ['popular', 'new arrivals', 'best sellers', 'special offers', 'coming soon']

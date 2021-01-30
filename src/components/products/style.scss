@@ -1,0 +1,19 @@
+.products {
+    padding-top: vw(60);
+    &__block {
+        position: relative;
+        width: vw(520);
+        height: vw(575);
+        background-color: #f8f8f8;
+    }
+    &__price {
+        font-size: 21px;
+        letter-spacing: 1px;
+        color: #9a9a9a;
+        font-weight: 300;
+        padding: 10px;
+    }
+    &__img {
+        @include form-center;
+    }
+}

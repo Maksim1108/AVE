@@ -1,0 +1,18 @@
+.filter {
+    &__list {
+        display: flex;
+    }
+    &__item {
+        font-size: vw(18);
+        line-height: vw(24);
+        color: #575153;
+        font-weight: 400;
+        font-family: "Montserrat";
+        text-transform: uppercase;
+        margin-right: vw(50);
+        cursor: pointer;
+        &.is-active {
+            color: $blue;
+        }
+    }
+}
