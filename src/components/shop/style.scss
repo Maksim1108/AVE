@@ -1,3 +1,22 @@
 .shop {
     padding: vw(120) 0;
+    &__content {
+        position: relative;
+        &::before {
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: vw(1);
+            background-color: #eeeeee;
+            top: vw(-55);
+        }
+        &::after {
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: vw(1);
+            background-color: #eeeeee;
+            bottom: vw(-55);
+        }
+    }
 }

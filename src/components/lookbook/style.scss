@@ -1,0 +1,59 @@
+.lookbook {
+    padding-bottom: vw(126);
+    &__row {
+        justify-content: space-between;
+    }
+    &__block {
+        width: vw(610);
+        height: vw(530);
+        background-color: #f8f8f8;
+        text-align: right;
+        box-sizing: border-box;
+        padding:vw(100) vw(60) 0 0;
+        background-image: url(../../assets/lookbook/REPLACE.png);
+        background-repeat: no-repeat;
+        background-position-y: bottom;
+        &:nth-child(2) {
+            background-image: url(../../assets/lookbook/REPLACE-2.png);
+        }
+        &:nth-child(3) {
+            background-image: url(../../assets/lookbook/REPLACE-3.png);
+        }
+    }
+    &__title {
+        font-size: vw(48);
+        letter-spacing: 2px;
+        line-height: vw(54);
+        color: #575153;
+        font-weight: 700;
+        text-transform: uppercase;
+        span {
+            font-weight: 400;
+        }
+    }
+    &__description {
+        font-size: vw(15);
+        line-height: 22px;
+        color: #727272;
+        font-weight: 400;
+        font-family: "Roboto";
+        padding: vw(30) 0;
+    }
+    &__button {
+        width: vw(180);
+        height: vw(60);
+        background-color: transparent;
+        border: vw(2) solid #737373;
+        font-size: vw(16);
+        letter-spacing: 3px;
+        color: #454647;
+        font-weight: 400;
+        text-transform: uppercase;
+        transition: 0.4s;
+        &:hover {
+            background-color:$blue;
+            border: vw(2) solid $blue;
+            color:$white;
+        }
+    }
+}

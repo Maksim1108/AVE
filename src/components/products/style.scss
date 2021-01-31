@@ -5,9 +5,17 @@
         width: vw(520);
         height: vw(575);
         background-color: #f8f8f8;
+        transition: 0.3s;
+        &-bottom {
+            width: vw(520);
+            height: vw(150);
+            background-color: $white;
+            bottom: vw(-145);
+            text-align: center;
+        }
     }
     &__price {
-        font-size: 21px;
+        font-size: vw(30);
         letter-spacing: 1px;
         color: #9a9a9a;
         font-weight: 300;
@@ -15,5 +23,19 @@
     }
     &__img {
         @include form-center;
+    }
+    &__name {
+        font-size: vw(21);
+        line-height: vw(20);
+        color: $gray;
+        font-weight: 400;
+        padding: vw(15) 0 vw(20) 0;
+    }
+    &__description {
+        font-size: vw(24);
+        line-height: vw(22);
+        color: #8e8c8c;
+        font-weight: 400;
+        font-family: "Roboto";
     }
 }
