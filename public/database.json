@@ -2,18 +2,50 @@
     "products": [
         {
             "id": 0,
-            "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/f035c7f46c0844069722f2bb3ee9f113_584x584.jpeg",
-            "name": "Пепперони Фреш с перцем",
+            "imageUrl": "",
+            "name": "Avenue Fashion",
             "price": 89.99,
             "category": 0,
             "description": "Classic casual t-shirt for women on the move.100% cotton."
         },
         {
             "id": 1,
-            "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/f035c7f46c0844069722f2bb3ee9f113_584x584.jpeg",
-            "name": "Сырная",
+            "imageUrl": "",
+            "name": "Avenue Fashion",
             "price": 47.50,
-            "category": 1,
+            "category": 0,
+            "description": "Classic casual t-shirt for women on the move.100% cotton."
+        },
+        {
+            "id": 2,
+            "imageUrl": "",
+            "name": "Avenue Fashion",
+            "price": 89.99,
+            "category": 0,
+            "description": "Classic casual t-shirt for women on the move.100% cotton."
+        },
+        {
+            "id": 3,
+            "imageUrl": "",
+            "name": "Avenue Fashion",
+            "price": 69.95,
+            "category": 0,
+            "description": "Classic casual t-shirt for women on the move.100% cotton."
+        },
+        {
+            "id": 4,
+            "imageUrl": "",
+            "name": "Avenue Fashion",
+            "price": 29.99,
+            "category": 0,
+            "description": "Classic casual t-shirt for women on the move.100% cotton."
+        },
+        {
+            "id": 5,
+            "imageUrl": "",
+            "name": "Avenue Fashion",
+            "price": 34.79,
+            "category": 0,
             "description": "Classic casual t-shirt for women on the move.100% cotton."
         }
     ]

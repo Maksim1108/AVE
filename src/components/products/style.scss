@@ -5,13 +5,21 @@
         width: vw(520);
         height: vw(575);
         background-color: #f8f8f8;
-        transition: 0.3s;
+        margin: vw(15);
         &-bottom {
+            position: absolute;
             width: vw(520);
-            height: vw(150);
+            max-height: vw(0);
             background-color: $white;
             bottom: vw(-145);
             text-align: center;
+            z-index: 2;
+            overflow: hidden;
+            transition: 0.3s;
+            &.active {
+                max-height: vw(150);
+                overflow: visible;
+            }
         }
     }
     &__price {
@@ -20,9 +28,6 @@
         color: #9a9a9a;
         font-weight: 300;
         padding: 10px;
-    }
-    &__img {
-        @include form-center;
     }
     &__name {
         font-size: vw(21);
